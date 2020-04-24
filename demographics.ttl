@@ -1,0 +1,493 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ndar: <https://ndar.nih.gov/api/datadictionary/v2/dataelement/> .
+@prefix nfo: <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#> .
+@prefix nidm: <http://purl.org/nidash/nidm#> .
+@prefix niiri: <http://iri.nidash.org/> .
+@prefix onli: <http://neurolog.unice.fr/ontoneurolog/v3.0/instrument.owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sio: <http://semanticscience.org/ontology/sio.owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+niiri:age_2q73ou5 a nidm:DataElement,
+        prov:Entity ;
+    rdfs:label "age" ;
+    dct:description "Age of participant at scan" ;
+    nidm:hasUnit "Years" ;
+    nidm:isAbout <http://uri.interlex.org/base/ilx_0100400> ;
+    nidm:minimumValue "0" ;
+    nidm:source_variable "age" ;
+    nidm:valueType xsd:integer .
+
+niiri:fa189bc4-866a-11ea-ae3c-f01898563600 a onli:assessment-instrument,
+        nidm:AcquisitionObject,
+        prov:Entity ;
+    niiri:age_2q73ou5 "21"^^xsd:int ;
+    niiri:group_n34s7b "A"^^xsd:string ;
+    niiri:sex_8adnsf "Male"^^xsd:string ;
+    nfo:filename "demographics.csv"^^xsd:string ;
+    prov:Location "file:/demographics.csv"^^xsd:string ;
+    prov:wasGeneratedBy niiri:fa1898a4-866a-11ea-ae3c-f01898563600 .
+
+niiri:fa1d0a74-866a-11ea-ae3c-f01898563600 a onli:assessment-instrument,
+        nidm:AcquisitionObject,
+        prov:Entity ;
+    niiri:age_2q73ou5 "55"^^xsd:int ;
+    niiri:group_n34s7b "A"^^xsd:string ;
+    niiri:sex_8adnsf "Male"^^xsd:string ;
+    nfo:filename "demographics.csv"^^xsd:string ;
+    prov:Location "file:/demographics.csv"^^xsd:string ;
+    prov:wasGeneratedBy niiri:fa1d07c2-866a-11ea-ae3c-f01898563600 .
+
+niiri:fa1f4c4e-866a-11ea-ae3c-f01898563600 a onli:assessment-instrument,
+        nidm:AcquisitionObject,
+        prov:Entity ;
+    niiri:age_2q73ou5 "9"^^xsd:int ;
+    niiri:group_n34s7b "B"^^xsd:string ;
+    niiri:sex_8adnsf "Female"^^xsd:string ;
+    nfo:filename "demographics.csv"^^xsd:string ;
+    prov:Location "file:/demographics.csv"^^xsd:string ;
+    prov:wasGeneratedBy niiri:fa1f49ba-866a-11ea-ae3c-f01898563600 .
+
+niiri:fa215fca-866a-11ea-ae3c-f01898563600 a onli:assessment-instrument,
+        nidm:AcquisitionObject,
+        prov:Entity ;
+    niiri:age_2q73ou5 "22"^^xsd:int ;
+    niiri:group_n34s7b "B"^^xsd:string ;
+    niiri:sex_8adnsf "Male"^^xsd:string ;
+    nfo:filename "demographics.csv"^^xsd:string ;
+    prov:Location "file:/demographics.csv"^^xsd:string ;
+    prov:wasGeneratedBy niiri:fa215d54-866a-11ea-ae3c-f01898563600 .
+
+niiri:fa2339d0-866a-11ea-ae3c-f01898563600 a onli:assessment-instrument,
+        nidm:AcquisitionObject,
+        prov:Entity ;
+    niiri:age_2q73ou5 "45"^^xsd:int ;
+    niiri:group_n34s7b "A"^^xsd:string ;
+    niiri:sex_8adnsf "Female"^^xsd:string ;
+    nfo:filename "demographics.csv"^^xsd:string ;
+    prov:Location "file:/demographics.csv"^^xsd:string ;
+    prov:wasGeneratedBy niiri:fa23373c-866a-11ea-ae3c-f01898563600 .
+
+niiri:fa251bce-866a-11ea-ae3c-f01898563600 a onli:assessment-instrument,
+        nidm:AcquisitionObject,
+        prov:Entity ;
+    niiri:age_2q73ou5 "9"^^xsd:int ;
+    niiri:group_n34s7b "A"^^xsd:string ;
+    niiri:sex_8adnsf "Male"^^xsd:string ;
+    nfo:filename "demographics.csv"^^xsd:string ;
+    prov:Location "file:/demographics.csv"^^xsd:string ;
+    prov:wasGeneratedBy niiri:fa251926-866a-11ea-ae3c-f01898563600 .
+
+niiri:fa26fbf6-866a-11ea-ae3c-f01898563600 a onli:assessment-instrument,
+        nidm:AcquisitionObject,
+        prov:Entity ;
+    niiri:age_2q73ou5 "13"^^xsd:int ;
+    niiri:group_n34s7b "A"^^xsd:string ;
+    niiri:sex_8adnsf "Male"^^xsd:string ;
+    nfo:filename "demographics.csv"^^xsd:string ;
+    prov:Location "file:/demographics.csv"^^xsd:string ;
+    prov:wasGeneratedBy niiri:fa26f886-866a-11ea-ae3c-f01898563600 .
+
+niiri:fa28fd48-866a-11ea-ae3c-f01898563600 a onli:assessment-instrument,
+        nidm:AcquisitionObject,
+        prov:Entity ;
+    niiri:age_2q73ou5 "21"^^xsd:int ;
+    niiri:group_n34s7b "B"^^xsd:string ;
+    niiri:sex_8adnsf "Male"^^xsd:string ;
+    nfo:filename "demographics.csv"^^xsd:string ;
+    prov:Location "file:/demographics.csv"^^xsd:string ;
+    prov:wasGeneratedBy niiri:fa28faaa-866a-11ea-ae3c-f01898563600 .
+
+niiri:fa2ae4be-866a-11ea-ae3c-f01898563600 a onli:assessment-instrument,
+        nidm:AcquisitionObject,
+        prov:Entity ;
+    niiri:age_2q73ou5 "24"^^xsd:int ;
+    niiri:group_n34s7b "A"^^xsd:string ;
+    niiri:sex_8adnsf "Male"^^xsd:string ;
+    nfo:filename "demographics.csv"^^xsd:string ;
+    prov:Location "file:/demographics.csv"^^xsd:string ;
+    prov:wasGeneratedBy niiri:fa2ae234-866a-11ea-ae3c-f01898563600 .
+
+niiri:fa2d1ce8-866a-11ea-ae3c-f01898563600 a onli:assessment-instrument,
+        nidm:AcquisitionObject,
+        prov:Entity ;
+    niiri:age_2q73ou5 "41"^^xsd:int ;
+    niiri:group_n34s7b "B"^^xsd:string ;
+    niiri:sex_8adnsf "Male"^^xsd:string ;
+    nfo:filename "demographics.csv"^^xsd:string ;
+    prov:Location "file:/demographics.csv"^^xsd:string ;
+    prov:wasGeneratedBy niiri:fa2d1a7c-866a-11ea-ae3c-f01898563600 .
+
+niiri:fa2f233a-866a-11ea-ae3c-f01898563600 a onli:assessment-instrument,
+        nidm:AcquisitionObject,
+        prov:Entity ;
+    niiri:age_2q73ou5 "12"^^xsd:int ;
+    niiri:group_n34s7b "A"^^xsd:string ;
+    niiri:sex_8adnsf "Female"^^xsd:string ;
+    nfo:filename "demographics.csv"^^xsd:string ;
+    prov:Location "file:/demographics.csv"^^xsd:string ;
+    prov:wasGeneratedBy niiri:fa2f2006-866a-11ea-ae3c-f01898563600 .
+
+niiri:fa3108d0-866a-11ea-ae3c-f01898563600 a onli:assessment-instrument,
+        nidm:AcquisitionObject,
+        prov:Entity ;
+    niiri:age_2q73ou5 "11"^^xsd:int ;
+    niiri:group_n34s7b "A"^^xsd:string ;
+    niiri:sex_8adnsf "Male"^^xsd:string ;
+    nfo:filename "demographics.csv"^^xsd:string ;
+    prov:Location "file:/demographics.csv"^^xsd:string ;
+    prov:wasGeneratedBy niiri:fa310646-866a-11ea-ae3c-f01898563600 .
+
+niiri:fa32faa0-866a-11ea-ae3c-f01898563600 a onli:assessment-instrument,
+        nidm:AcquisitionObject,
+        prov:Entity ;
+    niiri:age_2q73ou5 "15"^^xsd:int ;
+    niiri:group_n34s7b "A"^^xsd:string ;
+    niiri:sex_8adnsf "Male"^^xsd:string ;
+    nfo:filename "demographics.csv"^^xsd:string ;
+    prov:Location "file:/demographics.csv"^^xsd:string ;
+    prov:wasGeneratedBy niiri:fa32f776-866a-11ea-ae3c-f01898563600 .
+
+niiri:fa34f684-866a-11ea-ae3c-f01898563600 a onli:assessment-instrument,
+        nidm:AcquisitionObject,
+        prov:Entity ;
+    niiri:age_2q73ou5 "16"^^xsd:int ;
+    niiri:group_n34s7b "A"^^xsd:string ;
+    niiri:sex_8adnsf "Male"^^xsd:string ;
+    nfo:filename "demographics.csv"^^xsd:string ;
+    prov:Location "file:/demographics.csv"^^xsd:string ;
+    prov:wasGeneratedBy niiri:fa34f422-866a-11ea-ae3c-f01898563600 .
+
+niiri:fa36de90-866a-11ea-ae3c-f01898563600 a onli:assessment-instrument,
+        nidm:AcquisitionObject,
+        prov:Entity ;
+    niiri:age_2q73ou5 "15"^^xsd:int ;
+    niiri:group_n34s7b "A"^^xsd:string ;
+    niiri:sex_8adnsf "Male"^^xsd:string ;
+    nfo:filename "demographics.csv"^^xsd:string ;
+    prov:Location "file:/demographics.csv"^^xsd:string ;
+    prov:wasGeneratedBy niiri:fa36dc10-866a-11ea-ae3c-f01898563600 .
+
+niiri:fa38cf48-866a-11ea-ae3c-f01898563600 a onli:assessment-instrument,
+        nidm:AcquisitionObject,
+        prov:Entity ;
+    niiri:age_2q73ou5 "23"^^xsd:int ;
+    niiri:group_n34s7b "B"^^xsd:string ;
+    niiri:sex_8adnsf "Male"^^xsd:string ;
+    nfo:filename "demographics.csv"^^xsd:string ;
+    prov:Location "file:/demographics.csv"^^xsd:string ;
+    prov:wasGeneratedBy niiri:fa38cc96-866a-11ea-ae3c-f01898563600 .
+
+niiri:fa3ae422-866a-11ea-ae3c-f01898563600 a onli:assessment-instrument,
+        nidm:AcquisitionObject,
+        prov:Entity ;
+    niiri:age_2q73ou5 "12"^^xsd:int ;
+    niiri:group_n34s7b "B"^^xsd:string ;
+    niiri:sex_8adnsf "Male"^^xsd:string ;
+    nfo:filename "demographics.csv"^^xsd:string ;
+    prov:Location "file:/demographics.csv"^^xsd:string ;
+    prov:wasGeneratedBy niiri:fa3ada7c-866a-11ea-ae3c-f01898563600 .
+
+niiri:group_n34s7b a nidm:DataElement,
+        prov:Entity ;
+    rdfs:label "group" ;
+    dct:description "Group designator for study" ;
+    nidm:isAbout nidm:Group ;
+    nidm:levels "['A', 'B']" ;
+    nidm:source_variable "group" ;
+    nidm:valueType xsd:complexType .
+
+niiri:sex_8adnsf a nidm:DataElement,
+        prov:Entity ;
+    rdfs:label "sex" ;
+    dct:description "Biological sex of participant" ;
+    nidm:isAbout <http://uri.interlex.org/base/ilx_0101292> ;
+    nidm:levels "['Female', 'Male']" ;
+    nidm:source_variable "sex" ;
+    nidm:valueType xsd:complexType .
+
+niiri:subject_ID_17jmr78 a nidm:DataElement,
+        prov:Entity ;
+    rdfs:label "subject ID" ;
+    dct:description "subject/participant identifier" ;
+    nidm:sameAs ndar:src_subject_id ;
+    nidm:source_variable "subject ID" ;
+    nidm:valueType xsd:string .
+
+niiri:fa1894b2-866a-11ea-ae3c-f01898563600 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:fa1810dc-866a-11ea-ae3c-f01898563600 .
+
+niiri:fa1898a4-866a-11ea-ae3c-f01898563600 a onli:instrument-based-assessment,
+        nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:fa1894b2-866a-11ea-ae3c-f01898563600 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:fa1cdf40-866a-11ea-ae3c-f01898563600 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:fa1cdf40-866a-11ea-ae3c-f01898563600 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "CMU_0050646"^^xsd:string .
+
+niiri:fa1d043e-866a-11ea-ae3c-f01898563600 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:fa1810dc-866a-11ea-ae3c-f01898563600 .
+
+niiri:fa1d07c2-866a-11ea-ae3c-f01898563600 a onli:instrument-based-assessment,
+        nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:fa1d043e-866a-11ea-ae3c-f01898563600 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:fa1f25c0-866a-11ea-ae3c-f01898563600 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:fa1f25c0-866a-11ea-ae3c-f01898563600 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "Caltech_0051456"^^xsd:string .
+
+niiri:fa1f46c2-866a-11ea-ae3c-f01898563600 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:fa1810dc-866a-11ea-ae3c-f01898563600 .
+
+niiri:fa1f49ba-866a-11ea-ae3c-f01898563600 a onli:instrument-based-assessment,
+        nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:fa1f46c2-866a-11ea-ae3c-f01898563600 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:fa213810-866a-11ea-ae3c-f01898563600 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:fa213810-866a-11ea-ae3c-f01898563600 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "Leuven_0050691"^^xsd:string .
+
+niiri:fa215a20-866a-11ea-ae3c-f01898563600 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:fa1810dc-866a-11ea-ae3c-f01898563600 .
+
+niiri:fa215d54-866a-11ea-ae3c-f01898563600 a onli:instrument-based-assessment,
+        nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:fa215a20-866a-11ea-ae3c-f01898563600 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:fa231266-866a-11ea-ae3c-f01898563600 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:fa231266-866a-11ea-ae3c-f01898563600 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "KKI_0050778"^^xsd:string .
+
+niiri:fa233430-866a-11ea-ae3c-f01898563600 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:fa1810dc-866a-11ea-ae3c-f01898563600 .
+
+niiri:fa23373c-866a-11ea-ae3c-f01898563600 a onli:instrument-based-assessment,
+        nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:fa233430-866a-11ea-ae3c-f01898563600 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:fa24f4aa-866a-11ea-ae3c-f01898563600 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:fa24f4aa-866a-11ea-ae3c-f01898563600 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "MaxMun_0051321"^^xsd:string .
+
+niiri:fa2515d4-866a-11ea-ae3c-f01898563600 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:fa1810dc-866a-11ea-ae3c-f01898563600 .
+
+niiri:fa251926-866a-11ea-ae3c-f01898563600 a onli:instrument-based-assessment,
+        nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:fa2515d4-866a-11ea-ae3c-f01898563600 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:fa26d3ce-866a-11ea-ae3c-f01898563600 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:fa26d3ce-866a-11ea-ae3c-f01898563600 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "NYU_0050965"^^xsd:string .
+
+niiri:fa26f426-866a-11ea-ae3c-f01898563600 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:fa1810dc-866a-11ea-ae3c-f01898563600 .
+
+niiri:fa26f886-866a-11ea-ae3c-f01898563600 a onli:instrument-based-assessment,
+        nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:fa26f426-866a-11ea-ae3c-f01898563600 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:fa28d444-866a-11ea-ae3c-f01898563600 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:fa28d444-866a-11ea-ae3c-f01898563600 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "OHSU_0050142"^^xsd:string .
+
+niiri:fa28f6fe-866a-11ea-ae3c-f01898563600 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:fa1810dc-866a-11ea-ae3c-f01898563600 .
+
+niiri:fa28faaa-866a-11ea-ae3c-f01898563600 a onli:instrument-based-assessment,
+        nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:fa28f6fe-866a-11ea-ae3c-f01898563600 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:fa2abd7c-866a-11ea-ae3c-f01898563600 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:fa2abd7c-866a-11ea-ae3c-f01898563600 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "Olin_0050107"^^xsd:string .
+
+niiri:fa2ade9c-866a-11ea-ae3c-f01898563600 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:fa1810dc-866a-11ea-ae3c-f01898563600 .
+
+niiri:fa2ae234-866a-11ea-ae3c-f01898563600 a onli:instrument-based-assessment,
+        nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:fa2ade9c-866a-11ea-ae3c-f01898563600 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:fa2cf7e0-866a-11ea-ae3c-f01898563600 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:fa2cf7e0-866a-11ea-ae3c-f01898563600 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "Pitt_0050003"^^xsd:string .
+
+niiri:fa2d1716-866a-11ea-ae3c-f01898563600 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:fa1810dc-866a-11ea-ae3c-f01898563600 .
+
+niiri:fa2d1a7c-866a-11ea-ae3c-f01898563600 a onli:instrument-based-assessment,
+        nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:fa2d1716-866a-11ea-ae3c-f01898563600 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:fa2ef7e8-866a-11ea-ae3c-f01898563600 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:fa2ef7e8-866a-11ea-ae3c-f01898563600 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "SBL_0051556"^^xsd:string .
+
+niiri:fa2f1aa2-866a-11ea-ae3c-f01898563600 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:fa1810dc-866a-11ea-ae3c-f01898563600 .
+
+niiri:fa2f2006-866a-11ea-ae3c-f01898563600 a onli:instrument-based-assessment,
+        nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:fa2f1aa2-866a-11ea-ae3c-f01898563600 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:fa30e2b0-866a-11ea-ae3c-f01898563600 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:fa30e2b0-866a-11ea-ae3c-f01898563600 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "SDSU_0050185"^^xsd:string .
+
+niiri:fa3102a4-866a-11ea-ae3c-f01898563600 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:fa1810dc-866a-11ea-ae3c-f01898563600 .
+
+niiri:fa310646-866a-11ea-ae3c-f01898563600 a onli:instrument-based-assessment,
+        nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:fa3102a4-866a-11ea-ae3c-f01898563600 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:fa32cd14-866a-11ea-ae3c-f01898563600 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:fa32cd14-866a-11ea-ae3c-f01898563600 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "Stanford_0051168"^^xsd:string .
+
+niiri:fa32f1f4-866a-11ea-ae3c-f01898563600 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:fa1810dc-866a-11ea-ae3c-f01898563600 .
+
+niiri:fa32f776-866a-11ea-ae3c-f01898563600 a onli:instrument-based-assessment,
+        nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:fa32f1f4-866a-11ea-ae3c-f01898563600 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:fa34d154-866a-11ea-ae3c-f01898563600 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:fa34d154-866a-11ea-ae3c-f01898563600 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "Trinity_0050240"^^xsd:string .
+
+niiri:fa34f076-866a-11ea-ae3c-f01898563600 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:fa1810dc-866a-11ea-ae3c-f01898563600 .
+
+niiri:fa34f422-866a-11ea-ae3c-f01898563600 a onli:instrument-based-assessment,
+        nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:fa34f076-866a-11ea-ae3c-f01898563600 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:fa36b82a-866a-11ea-ae3c-f01898563600 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:fa36b82a-866a-11ea-ae3c-f01898563600 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "UCLA_0051210"^^xsd:string .
+
+niiri:fa36d80a-866a-11ea-ae3c-f01898563600 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:fa1810dc-866a-11ea-ae3c-f01898563600 .
+
+niiri:fa36dc10-866a-11ea-ae3c-f01898563600 a onli:instrument-based-assessment,
+        nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:fa36d80a-866a-11ea-ae3c-f01898563600 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:fa38a0c2-866a-11ea-ae3c-f01898563600 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:fa38a0c2-866a-11ea-ae3c-f01898563600 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "UM_0050404"^^xsd:string .
+
+niiri:fa38c7d2-866a-11ea-ae3c-f01898563600 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:fa1810dc-866a-11ea-ae3c-f01898563600 .
+
+niiri:fa38cc96-866a-11ea-ae3c-f01898563600 a onli:instrument-based-assessment,
+        nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:fa38c7d2-866a-11ea-ae3c-f01898563600 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:fa3aa372-866a-11ea-ae3c-f01898563600 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:fa3aa372-866a-11ea-ae3c-f01898563600 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "USM_0050440"^^xsd:string .
+
+niiri:fa3acf32-866a-11ea-ae3c-f01898563600 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:fa1810dc-866a-11ea-ae3c-f01898563600 .
+
+niiri:fa3ada7c-866a-11ea-ae3c-f01898563600 a onli:instrument-based-assessment,
+        nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:fa3acf32-866a-11ea-ae3c-f01898563600 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:fa3cc5f8-866a-11ea-ae3c-f01898563600 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:fa3cc5f8-866a-11ea-ae3c-f01898563600 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "Yale_0050559"^^xsd:string .
+
+niiri:fa1810dc-866a-11ea-ae3c-f01898563600 a nidm:Project,
+        prov:Activity ;
+    nfo:filename "demographics.csv"^^xsd:string .
+
