@@ -5,7 +5,7 @@ setup :
 	python -m pip install --upgrade pip
 	python -m pip install jupyter
 	python -m pip install -r requirements.txt
-	sh postBuild
+	python3 -m bash_kernel.install
 
 run : 
 	jupyter notebook
